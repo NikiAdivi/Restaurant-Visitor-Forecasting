@@ -7,7 +7,7 @@ In this problem, we're challenged to reservation and visitation data to predict 
 __Refer to this [report](RVF_report.pdf) for a detailed analysis of the above machine learning problem and insights into our approach.__
 
 - Dataset (along with the cleaned data `fe_train` and `fe_test`) has been maintained in the [`dataset` folder](dataset).
-- [`RVF-complete`](RVF-complete) is the complete ipynb notebook(contains EDA, feature engineering, model building and submissions).
+- [`EDA_Model_Notebook`](RVF-complete) is the complete ipynb notebook(contains EDA, feature engineering, model building and submissions).
 
 
 ### Install Requirements
