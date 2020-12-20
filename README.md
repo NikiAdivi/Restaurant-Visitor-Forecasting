@@ -5,17 +5,23 @@ In this problem, we're challenged to reservation and visitation data to predict 
 
 __Refer to this [report](RVF_report.pdf) for a detailed analysis of the above machine learning problem and insights into our approach.__
 
-Dataset (along with the cleaned data) has been maintained in the [`dataset` folder](datset)
+- Dataset (along with the cleaned data `fe_train` and `fe_test`) has been maintained in the [`dataset` folder](dataset).
+- [`RVF-complete`](RVF-complete) is the complete ipynb notebook(contains EDA, feature engineering, model building and submissions).
+
 
 ### Install Requirements
 ```bash
 pip3 install -r requirements.txt
 ```
 
+### Exploratory Data Analysis
+`EDA.ipynb` contains a detailed EDA.
+
 ### For Feature Engineering
 ```
 python3 feature_engineering.py
 ```
+This will generate `fe_train.py` and `fe_test.py`, the cleaned train and test files respectively.
 
 ### Build models (as required)
 Available Models:
@@ -27,6 +33,5 @@ To run:
 ```
 python3 model.py
 ```
+This will generate `submission.csv` in the format specified by the competition.
 
-### Exploratory Data Analysis
-Open the `EDA.ipynb` for a detailed EDA
