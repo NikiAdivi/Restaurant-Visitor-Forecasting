@@ -2,6 +2,7 @@
 
 Restaurants need to know how many customers to expect each day to effectively purchase ingredients and schedule staff members. This forecast isn't easy to make because many unpredictable factors affect restaurant attendance, like weather and local competition.
 In this problem, we're challenged to reservation and visitation data to predict the total number of visitors to a restaurant for future dates. This information will help restaurants be much more efficient and allow them to focus on creating an enjoyable dining experience for their customers.
+[Link](https://www.kaggle.com/c/restaurant-visitor-forecasting/overview) to the Kaggle competition.
 
 __Refer to this [report](RVF_report.pdf) for a detailed analysis of the above machine learning problem and insights into our approach.__
 
